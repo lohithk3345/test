@@ -1,0 +1,15 @@
+[package]
+name = "auth"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.5"
+chrono = "0.4.38"
+jsonwebtoken = "9.3.0"
+mongodb = "2.8.2"
+redis = "0.25.3"
+serde = "1.0.201"
+serde_json = "1.0.117"
+tokio = "1.37.0"
+uuid = "1.8.0"
